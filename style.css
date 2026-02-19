@@ -264,3 +264,107 @@ footer p {
     font-size: 14px;
     margin-top: -5px;
 }
+
+.discography {
+    padding: 60px 6%;
+    background: #fdeef4;
+}
+
+.disc-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.album-card {
+    background: #f6f6f6;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    height: 350px;
+}
+
+.album-title {
+    text-align: center;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.album-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.album-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.album-header {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.album-image {
+    flex-shrink: 0;
+}
+
+.album-image img {
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    object-fit: cover;
+}
+
+.album-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.album-video {
+    flex: 1;
+}
+
+.album-video iframe {
+    width: 100%;
+    height: 315px;
+    aspect-ratio: 16 / 9;
+    border-radius: 15px;
+    border: 2px solid #000;
+}
+
+.song-list {
+    margin: 10px auto 0;
+    padding-left: 20px;
+    line-height: 1.4;
+    font-size: 18px;
+    columns: 2;
+    gap: 40px;
+    max-width: 90%;
+}
+
+.song-list li {
+    margin-bottom: 4px;
+    margin-left: -10px;
+}
+
+.year-group {
+    font-size: 24px;
+    margin: 40px 0 15px;
+    padding-left: 10px;
+    border-left: 6px solid #ff6fa1;
+}
