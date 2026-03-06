@@ -24,6 +24,18 @@ header {
     align-items: center;
 }
 
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -236,6 +248,19 @@ footer p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
+}
+
+@media (max-width: 900px) {
+    .merch-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .merch-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .merch-card {
